@@ -1,0 +1,134 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// (Required) Import Bootstrap
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$primary: blue;
+$secondary: green;
+$my-color: red;
+
+$theme-colors: (
+  primary: $primary,
+  secondary: $secondary,
+  my-color: $my-color
+);
+
+// Add below your SASS or CSS code
+
+// (Required) Import Bootstrap
+
+//<--------------------------Variables------------------------->
+$grey:rgb(245, 245, 245);
+$btn_txt:white;
+$login_btn:rgb(20, 110, 161);
+$create_btn:rgb(116, 79, 11);
+//<--------------------------Variables------------------------->//rgb(62, 135, 245);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.btn-primaryy{
+  background-color: $login_btn;
+  color: $btn_txt;
+}
+.btn-successs{
+  background-color: $create_btn;
+  color: $btn_txt;
+}
+.for{
+  color: $login_btn;
+}
+.alileft{
+  margin-left: 70px;
+  margin-top: -20px;
+}
+.backgroung{
+  background: #edf0f5;
+  height: 740px;
+}
+.container1{
+  padding-top: 120px;
+}
+.container2{
+  font-family:Helvetica, Arial, sans-serif;
+}
+.ff{
+  padding: 74px;
+}
+.line{
+  line-height: 1px;
+}
+.rounded1{
+  border-radius: 8px;
+  margin-left: 70px;
+}
+.face2{
+  font-family: Helvetica, Arial, sans-serif;
+  color: black;
+  font-size: 28px;
+}
+.comp1{
+  padding: 13px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.comp2{
+  padding: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.bot{
+  font-size: 14px;
+  margin-left: 126px;
+  margin-right: -12px;
+}
+.image{
+  display: block;
+  width: 301px;
+  height: auto;
+  margin-left: -30px;
+}
+ul{
+ li{
+   
+   padding-left: 9px !important;
+   padding-right: 12px !important;
+  font-size: 12px;
+  color: #8a8d91 !important;
+ }
+}
+.iconbg{
+   background-color: $grey;
+   padding: 0px 6px;
+}
+.iconli{
+  margin-top: 4px;
+  margin-left: -9px;
+}
+.firstli{
+  margin-top: 22px;
+  li{
+    margin-bottom: -17px;
+  }
+}
+.secondli{
+  li{
+    margin-top: -7px;
+    padding-top: 0px;
+  }
+}
+.maleft{
+  margin-left: 368px;
+  width: 1054px;
+}
+.copyright{
+  padding-top: 10px;
+  padding-left: 21px !important;
+  padding-right: 12px !important;
+  font-size: 12px;
+  color: #8a8d91 !important;
+}
+
+
+//font-family: Helvetica, Arial, sans-serif;
+//font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
